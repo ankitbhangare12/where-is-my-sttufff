@@ -24,7 +24,9 @@ npm install
 npm run dev
 ```
 
-This starts the Vite frontend and local Node API. Camera access requires HTTPS or localhost. ## Deploy to Vercel
+This starts the Vite frontend and local Node API. Camera access requires HTTPS or localhost.
+
+## Deploy to Vercel
 
 1. Import this project into Vercel and set `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` as Production environment variables.
 2. Deploy the project. Vercel rewrites app routes such as `/signup` and `/app/scan` to the React entry point.
